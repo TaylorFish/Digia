@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/iosbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    ;
+}
+img.logo{
+    min-width: 60px;
+    position: inherit;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:  aqua;
+    float: none;
+    list-style: none;
+    
+    font-family: 'Barlow Condensed', sans-serif;
+}
