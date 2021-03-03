@@ -3,24 +3,65 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-image: url(../img/iosbackground.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%; 
-    ;
+    background-size: 100%;  
+    padding: 10px;
 }
-img.logo{
-    min-width: 60px;
-    position: inherit;
-}
-nav ul{
+
+/* Nav styling */
+.logo{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color:  aqua;
-    float: none;
+    min-width: 60px;
+    position: relative;
+    left: 50px;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.leftsidelinks{
+    padding-top: 60px;
+    width: 100%;
+}
+.titletext{
+    display: flex;
+    position: relative;
+    padding-top: 12px;
+    left: 50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
     list-style: none;
-    
-    font-family: 'Barlow Condensed', sans-serif;
+    width: 50%;
+}
+.h1{
+    display: flex;
+    position: relative;
+    left: 23%;
+    font-size: 60px;
+}
+.logocontainer{
+    display: flex;
+}
+.main-section{
+    display: flex;
+    margin: 0 50px;
+}
+.makeitred{
+    color:  red;
+}
+.left-section{
+    background-color: rgb(23, 168, 194);
+    border: 1px solid red;
+    width:100%;
+}
+.right-section{
+    background-color: grey;
+    border: 1px solid green;
+    width: 100%;
 }
